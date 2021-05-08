@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.title("This is a miles to kilometers calculator.")
+window.title("Miles to Km.")
 window.config(padx=10, pady=10)
 
 
@@ -10,6 +10,7 @@ def convert_miles_to_km():
     in_km.config(text=kilos)
 
 
+# Positioning the elements in the window through grid approach:
 # Column 1
 equal_to = Label(text="is equal to:", font=("Arial", 15, "normal"))
 equal_to.grid(column=0, row=1)
