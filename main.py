@@ -4,25 +4,6 @@ window = Tk()
 window.title("This is a miles to kilometers calculator.")
 window.config(padx=10, pady=10)
 
-# def change_label():
-#     label.config(text=entry.get())
-#
-#
-# label = Label(text="This is the label", font=("Arial", 20, "normal"))
-# label.grid(column=0, row=0)
-#
-#
-# button = Button(text="Please click me!", font=("Arial", 10, "normal"), command=change_label)
-# button.grid(column=1, row=1)
-#
-#
-# new_button = Button(text="Please click me!", font=("Arial", 10, "normal"), command=change_label)
-# new_button.grid(column=2, row=0)
-#
-#
-# entry = Entry()
-# entry.grid(column=3, row=2)
-
 
 def convert_miles_to_km():
     kilos = round(float(miles_input.get()) * 1.609, 2)
